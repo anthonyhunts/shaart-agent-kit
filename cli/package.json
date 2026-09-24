@@ -4,14 +4,38 @@
   "description": "Official CLI and SDK for the Anthony Hunt · SHAART Agency public API: pricing, services, contact options, blog posts and site search. Read-only, no API key.",
   "type": "module",
   "main": "./index.js",
-  "exports": { ".": "./index.js" },
-  "bin": { "shaart": "./bin/shaart.js" },
-  "files": ["index.js", "bin", "README.md"],
-  "engines": { "node": ">=18" },
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "shaart": "bin/shaart.js"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "homepage": "https://www.anthonyhunts.com/developers",
-  "repository": { "type": "git", "url": "git+https://github.com/anthonyhunts/shaart-agent-kit.git", "directory": "cli" },
-  "bugs": { "url": "https://github.com/anthonyhunts/shaart-agent-kit/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyhunts/shaart-agent-kit.git",
+    "directory": "cli"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonyhunts/shaart-agent-kit/issues"
+  },
   "author": "Anthony Hunt <info@anthonyhunts.com> (https://www.anthonyhunts.com)",
   "license": "MIT",
-  "keywords": ["gohighlevel", "ai-automation", "crm", "puerto-rico", "cli", "sdk", "mcp"]
+  "keywords": [
+    "gohighlevel",
+    "ai-automation",
+    "crm",
+    "puerto-rico",
+    "cli",
+    "sdk",
+    "mcp"
+  ]
 }
