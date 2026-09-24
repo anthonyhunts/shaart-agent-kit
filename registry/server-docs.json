@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.anthonyhunts/shaart-agency-docs",
+  "title": "Anthony Hunt · SHAART Agency docs",
+  "description": "Search anthonyhunts.com and read any page as Markdown: GoHighLevel and AI automation guides",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.anthonyhunts.com/developers#mcp",
+  "repository": { "url": "https://github.com/anthonyhunts/shaart-agent-kit", "source": "github" },
+  "icons": [{ "src": "https://www.anthonyhunts.com/icon.png", "mimeType": "image/png" }],
+  "remotes": [{ "type": "streamable-http", "url": "https://www.anthonyhunts.com/api/mcp/docs" }]
+}

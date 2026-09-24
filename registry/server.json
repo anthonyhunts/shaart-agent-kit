@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.anthonyhunts/shaart-agency",
+  "title": "Anthony Hunt · SHAART Agency",
+  "description": "Read-only pricing, services, contact and blog of a GoHighLevel and AI automation agency (PR)",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.anthonyhunts.com/developers",
+  "repository": { "url": "https://github.com/anthonyhunts/shaart-agent-kit", "source": "github" },
+  "icons": [{ "src": "https://www.anthonyhunts.com/icon.png", "mimeType": "image/png" }],
+  "remotes": [{ "type": "streamable-http", "url": "https://www.anthonyhunts.com/api/mcp" }]
+}
