@@ -1,0 +1,18 @@
+{
+  "name": "anthony-hunt",
+  "version": "1.0.0",
+  "description": "Anthony Hunt — GoHighLevel expert, AI automation and digital marketing in Puerto Rico and the US. Official CLI: services, prices, guides and how to book a call. Founder of SHAART Agency.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": { ".": "./index.js" },
+  "bin": { "anthony-hunt": "./bin/anthony-hunt.js" },
+  "files": ["index.js", "bin", "README.md"],
+  "engines": { "node": ">=18" },
+  "dependencies": { "shaart-agency": "^1.0.0" },
+  "homepage": "https://www.anthonyhunts.com",
+  "repository": { "type": "git", "url": "git+https://github.com/anthonyhunts/shaart-agent-kit.git", "directory": "anthony-hunt" },
+  "bugs": { "url": "https://github.com/anthonyhunts/shaart-agent-kit/issues" },
+  "author": "Anthony Hunt <info@anthonyhunts.com> (https://www.anthonyhunts.com)",
+  "license": "MIT",
+  "keywords": ["anthony-hunt", "gohighlevel", "ghl", "ai-automation", "crm", "puerto-rico", "marketing", "shaart", "cli", "mcp"]
+}

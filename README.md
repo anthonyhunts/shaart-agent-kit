@@ -22,11 +22,13 @@ Also listed on Smithery: https://smithery.ai/servers/anthonyhunts01/shaart-agenc
 
 **Agent Plugin:** this repo is an [Agent Plugins](https://agent-plugins.org) package (`plugin.json`, `skills/`, `mcp.json`) and a Claude Code plugin (`.claude-plugin/plugin.json`).
 
-**CLI / SDK** (`cli/`):
+**CLI / SDK:**
 ```bash
-npx shaart-agency pricing
+npx anthony-hunt                      # who Anthony Hunt is, how to book
+npx anthony-hunt pricing
 npx shaart-agency ask "automatizar seguimiento por WhatsApp"
 ```
+`anthony-hunt/` is the personal-brand package; `cli/` (`shaart-agency`) is the agency SDK it builds on.
 
 ## Skills
 
