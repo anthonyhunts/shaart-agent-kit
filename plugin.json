@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shaart-agency",
+  "version": "1.0.0",
+  "description": "Skills and MCP servers for Anthony Hunt · SHAART Agency: GoHighLevel implementation, AI automation and digital marketing for service businesses in Puerto Rico and the US. Read-only: pricing, services, contact options and site docs.",
+  "author": {
+    "name": "Anthony Hunt",
+    "email": "info@anthonyhunts.com",
+    "url": "https://www.anthonyhunts.com"
+  },
+  "homepage": "https://www.anthonyhunts.com/developers",
+  "repository": "https://github.com/anthonyhunts/shaart-agent-kit",
+  "license": "MIT",
+  "keywords": ["gohighlevel", "ai-automation", "crm", "puerto-rico", "mcp", "skills"]
+}
