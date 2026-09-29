@@ -1,6 +1,6 @@
 ---
 name: gohighlevel-pricing-lookup
-description: Look up the current public prices of SHAART Agency plans and add-ons (GoHighLevel setup, consultations, AI workshop, WhatsApp automation) and compare them for the user. Use when the user asks how much a GoHighLevel setup, a consultation or an AI workshop with Anthony Hunt costs.
+description: Look up the current public prices of SHAART Agency plans and add-ons (GoHighLevel setup, consultations, WhatsApp automation) and compare them for the user. Use when the user asks how much a GoHighLevel setup, or a consultation with Anthony Hunt costs.
 ---
 
 # SHAART Agency pricing lookup
@@ -12,7 +12,7 @@ description: Look up the current public prices of SHAART Agency plans and add-on
 
 ## Steps
 
-1. Call `GET https://www.anthonyhunts.com/api/v1/pricing`. To get one plan, add `?plan=<id>` (ids: `consultoria`, `consultoria-avanzada`, `digitalizate-basico`, `taller-cerebro-digital`, `addon-whatsapp`, `addon-gbp`, `addon-ads`).
+1. Call `GET https://www.anthonyhunts.com/api/v1/pricing`. To get one plan, add `?plan=<id>` (ids: `consultoria`, `consultoria-avanzada`, `digitalizate-basico`, `addon-whatsapp`, `addon-gbp`, `addon-ads`).
 2. Report `one_time` and `monthly` in USD exactly as returned, plus `includes` and `excludes`.
 3. If the need is not covered by a listed plan, say it is quoted after a free 15-minute call at `https://www.anthonyhunts.com/agenda`. Do not estimate a price.
 
